@@ -1,7 +1,7 @@
 import { Router } from 'express'
 
 //importar las funciones
-import { getClientes, getClientesId, postCliente, putCliente, deleteCliente } from '../controladores/clientesctrl.js';
+import { getClientes, getClientesId, postCliente, putCliente, deleteCliente } from '../controladores/clientesCtrl.js';
 const router=Router();
 
 //armar nuestras rutas
